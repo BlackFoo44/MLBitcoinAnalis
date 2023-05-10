@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "cryptoml"
+name = "cryptodata"
 version = "0.1.0"
 description = ""
 authors = ["BlackFoo44 <evgesha-kudriavzev@yandex.ru >"]
@@ -7,6 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+numpy = "^1.24.3"
+scikit-learn = "^1.2.2"
+pandas = "^2.0.1"
+xgboost = "^1.7.5"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+statsmodels = "^0.13.5"
+black = "^23.3.0"
 
 
 [build-system]
